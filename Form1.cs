@@ -1219,14 +1219,6 @@ namespace CWD
                     excelWorksheet2.Cells[2, 6].Value = cf;
                     excelWorksheet2.Cells[2, 7].Value = df;
 
-                    using (System.IO.StreamWriter file =
-                    new System.IO.StreamWriter("abcd.txt", true))
-                    {
-                        file.WriteLine(PrimalGene.Code + "-P" + ";" + ap + ";" + bp + ";" + cp + ";" + dp);
-                        file.WriteLine(PrimalGene.Code + "-C" + ";" + ac + ";" + bc + ";" + cc + ";" + dc);
-                        file.WriteLine(PrimalGene.Code + "-F" + ";" + af + ";" + bf + ";" + cf + ";" + df);
-                    }
-
                     FileInfo excelFile = new FileInfo(folderName + "\\" + PrimalGene.Code + ".xlsx");
                     excel.SaveAs(excelFile);
                     richTextBox1.Text += "Saved as " + excelFile + ". \r\n";
@@ -1600,14 +1592,6 @@ namespace CWD
                                         if (Strands[i].ID == Strands[i + 1].ID && Strands[i].Strand == Strands[i + 1].Strand)
                                         {
                                             Strands.RemoveAt(i);
-                                        }
-                                    }
-
-                                    using (System.IO.StreamWriter file = new System.IO.StreamWriter("strand.txt", true))
-                                    {
-                                        for (int counter1 = 0; counter1 < Strands.Count; counter1++)
-                                        {
-                                            file.WriteLine(Strands[counter1].ID + "\t" + Strands[counter1].Name + "\t" + Strands[counter1].Chrom + "\t" + Strands[counter1].Pseudo + "\t" + Strands[counter1].Strand + "\t" + Strands[counter1].Start + "\t" + Strands[counter1].End);
                                         }
                                     }
                                     richTextBox1.Text += "Loaded " + Strands.Count + " lines from StrandTXT file \r\n";
