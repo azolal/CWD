@@ -43,6 +43,7 @@ namespace CWD
             this.textBox1.Size = new System.Drawing.Size(434, 115);
             this.textBox1.TabIndex = 0;
             this.textBox1.Text = resources.GetString("textBox1.Text");
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // Form2
             // 

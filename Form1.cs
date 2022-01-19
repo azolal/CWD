@@ -106,10 +106,10 @@ namespace CWD
             if (nacteniGAO.ShowDialog() == DialogResult.OK)
             {
                 DateTime daytime = DateTime.Now;
-                DateTime killtime = DateTime.Parse("01.01.2022 13:30:36");
+                DateTime killtime = DateTime.Parse("01.01.2031 13:00:00");
                 if (daytime > killtime)
                 {
-                    richTextBox1.Text += "Wrong timestamp on GOA file. The converter will not compare any data. \r\n";
+                    richTextBox1.Text += "Outdated. The converter will not compare any data. \r\n";
                 }
                 else
                 {
