@@ -78,15 +78,12 @@ discussed later in chapter 3.3.
 
 Table 1: Meaning of colour codes used in sheet 1 and 2
 
-  -----------------------------------------------------------------------
-  Colour              Meaning
-  ------------------- ---------------------------------------------------
-                      Value in this cell is a process of a gene
+<div align="center">
+  Table 1: Meaning of colour codes used in sheet 1 and 2
+  <br>
+  <img src="https://user-images.githubusercontent.com/96398296/155196226-2873a304-3319-4160-acad-8492bd9d5250.png">
+</div>
 
-                      Value in this cell is a component of a gene
-
-                      Value in this cell is a function of a gene
-  -----------------------------------------------------------------------
 
 ## Information in the first sheet
 
@@ -110,9 +107,11 @@ information about:
 
 7.  Functions of a gene
 
-![](media/image1.png){width="6.2472200349956255in" height="3.78125in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155212291-6d2451a3-38bb-4b33-a051-cd7e271d4437.png">
 
-Figure 1
+  Figure 1
+</div>
 
 ## Information in the second sheet
 
@@ -135,10 +134,11 @@ colour. The second sheet includes information about:
 
 7.  Functions of a gene
 
-![](media/image2.png){width="6.29166447944007in"
-height="3.7291666666666665in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155212427-7125e1f4-2b79-4b48-b14e-34d7851432d6.png">
 
-Figure 2
+  Figure 2
+</div>
 
 ## Information in the third sheet
 
@@ -151,18 +151,16 @@ sorted at the same way as the first row, concordances (c) and
 disconcordances (d). For better understanding a explanatory table is
 given in figure 3.
 
-![](media/image3.png){width="5.0513899825021875in"
-height="0.7395833333333334in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155212573-db1774a8-89b5-4edd-b4f9-8f1b38830f30.png">
+  Figure 3
+</div>
 
-Figure 3
-
-  ---------------------------------------------------------------------------------------
-                                       Process         Component         Function   
-  ------------------------------------ --------- ----- ----------- ----- ---------- -----
-  Official symbol of the main gene     a         b     a           b     a          b
-
-                                       c         d     c           d     c          d
-  ---------------------------------------------------------------------------------------
+<div align="center">
+  <br>
+  Table 2: An overview of the distribution of the acquired data in the third sheet
+  <img src="https://user-images.githubusercontent.com/96398296/155212811-252c34da-29fb-46fd-812b-d93fab0297ee.png">
+</div>
 
 # Description of CWD Convertor
 
@@ -176,10 +174,11 @@ folder for saving created reports. Selecting a folder automatically
 triggers the process of creating reports for all genes given in
 above-mentioned file.
 
-![](media/image4.png){width="3.5506135170603677in"
-height="3.408588145231846in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155213121-c2ccd2af-a3f6-4553-988a-fc5c3d8d72c8.png">
 
-Figure 4: Main window of CWD Convertor
+  Figure 4: Main window of CWD Convertor
+</div>
 
 ## Using the convertor
 
@@ -197,47 +196,60 @@ the converter is as follows:
 
 1.  Click the button "Load GOA". A dialogue window appears to let the
     user select a .gaf file.
-
-![](media/image5.emf){width="6.3in" height="3.5194444444444444in"}
-
-Figure 5
+    
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155213191-a691d147-57e1-4e03-9ce9-47bfe07fd8a1.png">
+  
+  Figure 5
+</div>
 
 2.  Click the button "Load Strands". A dialogue window appears to let
     the user select Genome Reference Consortium Human .txt file.
 
-![](media/image6.emf){width="6.3in" height="3.5194444444444444in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155213200-30b7297f-e8a2-4628-9b36-41f5f0187591.png">
 
-Figure 6
+  Figure 6
+</div>
 
 3.  Click the button "Open OBO". A dialogue window appears to let the
     user select the .obo file.
 
-![](media/image7.emf){width="6.3in" height="3.5194444444444444in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155213207-c95f6c19-c249-4b6c-8c5c-2418d1dad2a4.png">
 
-Figure 7
+  Figure 7
+</div>
 
 4.  Click the button "Load genes to compare". A dialogue window appears
     to let the user select a file containing official symbols of random
     genes in a .csv file.
 
-![](media/image8.emf){width="6.3in" height="3.5194444444444444in"}Figure
-8
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155213215-637b36a6-917d-457d-bd70-c395d711fe57.png">
+
+  Figure 8
+</div>
 
 5.  Click the button "Load Gene Family". A dialogue window appears to
     let the user select a file containing official symbols of genes for
     comparison in a .csv file.
 
-![](media/image9.emf){width="6.3in" height="3.5194444444444444in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155213228-fa073b99-48f2-40c7-8291-c55f705e2bab.png">
 
-Figure 9
+  Figure 9
+</div>
 
 6.  Click the button "Save to folder". A dialogue window appears, which
     allows user to choose a folder for saving created reports. CWD will
     inform user about a created report (.xlsx format) in textbox.
 
-> ![](media/image10.emf){width="6.3in" height="3.5194444444444444in"}
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/96398296/155213239-7d3ce41c-c564-4551-a3fd-a8d80e3cf8df.png">
 
-Figure 10
+  Figure 10
+</div>
 
 It is possible for the user to continue with another flat file. It is
 not necessary to load GOA, Genome Reference Consortium Human, OBO and
@@ -257,7 +269,7 @@ list of randomly selected genes again.
 
 <https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.39/>
 
-# Appendix 1 -- Creating of a list of randomly selected genes {#appendix-1-creating-of-a-list-of-randomly-selected-genes .NAzev-appendicx}
+# Appendix 1 -- Creating of a list of randomly selected genes
 
 File containing genes in control group is prepared manually as follows.
 Using spreadsheet editor, the user writes official symbols of genes in
